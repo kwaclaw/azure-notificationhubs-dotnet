@@ -172,7 +172,7 @@ namespace Microsoft.Azure.NotificationHubs.Tests
             };
 
             var installation = new BrowserInstallation(InstallationId, browserPushSubscription);
-            var pushSubscription = JsonSerializer.Deserialize<BrowserPushSubscription>(installation.PushChannel);
+            var pushSubscription = (BrowserPushSubscription)installation.PushChannel;
 
             Assert.NotNull(pushSubscription);
             Assert.Equal(browserPushSubscription.Endpoint, pushSubscription.Endpoint);

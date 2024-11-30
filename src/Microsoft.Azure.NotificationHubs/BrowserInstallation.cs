@@ -5,7 +5,6 @@
 //------------------------------------------------------------
 
 using System;
-using System.Text.Json;
 
 namespace Microsoft.Azure.NotificationHubs
 {
@@ -46,7 +45,7 @@ namespace Microsoft.Azure.NotificationHubs
                 throw new ArgumentNullException(nameof(browserPushSubscription.Auth));
             }
 
-            PushChannel = JsonSerializer.Serialize(browserPushSubscription);
+            PushChannel = browserPushSubscription;
         }
     }
 }

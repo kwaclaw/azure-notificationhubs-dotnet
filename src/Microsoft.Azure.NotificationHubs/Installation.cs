@@ -33,7 +33,7 @@ namespace Microsoft.Azure.NotificationHubs
         /// Gets or set registration id, token or URI obtained from platform-specific notification service
         /// </summary>
         [JsonProperty(PropertyName = "pushChannel")]
-        public string PushChannel { get; set; }
+        public object PushChannel { get; set; }
 
         /// <summary>
         /// Gets if installation is expired or not
