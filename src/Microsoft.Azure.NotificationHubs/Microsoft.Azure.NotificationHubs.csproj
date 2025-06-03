@@ -5,8 +5,8 @@
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageId>kdsoft.Microsoft.Azure.NotificationHubs</PackageId>
-    <Version>4.2.1</Version>
+    <PackageId>Custom.Microsoft.Azure.NotificationHubs</PackageId>
+    <Version>4.2.2</Version>
     <Authors>Microsoft</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://aka.ms/NHNuget</PackageProjectUrl>
